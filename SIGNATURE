@@ -1,0 +1,41 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2fd953238ea023d93a650257e7b6ca5be95647f0 Changes
+SHA1 6f92aa07aec72ca69ab1f5787b8d1528c8becdd1 INSTALL
+SHA1 08b2ad64badfcefd430790320031f6f48fb32d14 LICENSE
+SHA1 cd083d17cd407223cbf6285fab1e2e2d8f78e082 MANIFEST
+SHA1 517dec808639d356f365e11f74a152653cbbdcf7 META.json
+SHA1 746a83ca88a03781d315ce191dcca94d03b027b0 META.yml
+SHA1 84ca6c361cafed60cd1f4d73cd481e09b93a3865 Makefile.PL
+SHA1 100aafe20e6c2530eb6e3b54f3b6c2490c09a07a README
+SHA1 fb25cee87f74241f8af9bfc3f9f01306a59f8e18 dist.ini
+SHA1 5ec7e17c6dcc6cef54eb112430e12f82b1cd6363 examples/first
+SHA1 87a020f0f8de7ec6475c7dc2dc583a11ca3cc403 examples/readthrough
+SHA1 7e7a1454f377a10f81b4c325cd043be42adca1f9 lib/Bio/SFF.pm
+SHA1 5aefa57bc5a9e8f41baf03f3d4559b32237c0e05 lib/Bio/SFF/Entry.pm
+SHA1 8b087f7508c3f3a5f23961c59006148f5fe180db lib/Bio/SFF/Header.pm
+SHA1 c2a1da94c2f0d0def94e6a15a257f5e37090b43b lib/Bio/SFF/Reader.pm
+SHA1 3cbe905b92fbc69d59a06031d5ce6c837b352aa2 t/00-compile.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+
+iD8DBQFOxoDMTd+EWiaICwoRAoUuAKDUHiDqlp6H2n/FE8rM9WIWlYwIVwCfbcMs
+d/ex9hkLs3dkTit9J9wfEbA=
+=mYX0
+-----END PGP SIGNATURE-----
