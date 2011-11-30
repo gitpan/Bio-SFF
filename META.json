@@ -36,6 +36,7 @@
          "requires" : {
             "File::Find" : 0,
             "File::Temp" : 0,
+            "Test::Kwalitee" : 0,
             "Test::More" : 0
          }
       }
@@ -52,6 +53,6 @@
          "web" : "http://github.com/Leont/bio-sff"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 

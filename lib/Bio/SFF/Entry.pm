@@ -1,6 +1,6 @@
 package Bio::SFF::Entry;
 {
-  $Bio::SFF::Entry::VERSION = '0.001';
+  $Bio::SFF::Entry::VERSION = '0.002';
 }
 
 use Moo;
@@ -73,7 +73,7 @@ Bio::SFF::Entry - An SFF entry
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

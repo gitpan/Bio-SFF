@@ -8,6 +8,7 @@ Makefile.PL
 README
 SIGNATURE
 dist.ini
+examples/extract
 examples/first
 examples/readthrough
 lib/Bio/SFF.pm
@@ -15,5 +16,6 @@ lib/Bio/SFF/Entry.pm
 lib/Bio/SFF/Header.pm
 lib/Bio/SFF/Reader.pm
 t/00-compile.t
+t/release-kwalitee.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t

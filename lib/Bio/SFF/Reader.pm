@@ -1,6 +1,6 @@
 package Bio::SFF::Reader;
 {
-  $Bio::SFF::Reader::VERSION = '0.001';
+  $Bio::SFF::Reader::VERSION = '0.002';
 }
 
 use Moo;
@@ -34,7 +34,7 @@ has _fh => (
 	},
 	coerce   => sub {
 		my $val = shift;
-		return $val if reftype($val) eq 'GLOB';
+		return $val if ref($val) and reftype($val) eq 'GLOB';
 		open my $fh, '<:raw', $val or croak "Could open file $val: $!";
 		return $fh;
 	}
@@ -143,11 +143,11 @@ Bio::SFF::Reader - An SFF reader
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
- my $reader = Bio::SFF::Reader(file => $filename);
+ my $reader = Bio::SFF::Reader->new(file => $filename);
  while (my $entry = $reader->next_entry) {
      say '>', $entry->name;
      say $entry->bases;
