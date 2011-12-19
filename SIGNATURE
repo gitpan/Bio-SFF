@@ -14,30 +14,50 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7f17fb46b19b4c1620571ffb1ca7ac568a2bd658 Changes
+SHA1 842812c7470d8e87ee7f2f9a5548dec6fa7e5c3c Changes
 SHA1 6f92aa07aec72ca69ab1f5787b8d1528c8becdd1 INSTALL
 SHA1 08b2ad64badfcefd430790320031f6f48fb32d14 LICENSE
-SHA1 563b45ca1dffc3777777ed850d2da482b7883e85 MANIFEST
-SHA1 57058886cb1d99a106303bb7f5953e22129efd40 META.json
-SHA1 57f6dcc1de017665e50450f30287066682d5c384 META.yml
-SHA1 8230b2e73616afac4b83c4f273a96399bbb4e2c8 Makefile.PL
-SHA1 e296daf4cd9c9c34acb505e657076c9392914746 README
+SHA1 512118d0a71644a65c1551bd176d60af793ccfbc MANIFEST
+SHA1 a04d1a2d9200c8fe7792f0aba2c1006b42e0ef02 META.json
+SHA1 cdca03fb033a646fa7d31af847e16f1fb74b4194 META.yml
+SHA1 5df97cd9a6097bfea3b3f36e75296e928d820093 Makefile.PL
+SHA1 f63af95c022534f19fc95204d7508dd1af14fc10 README
+SHA1 d400042c1619929e82bc93b06d9864c2a67f58f2 corpus/E3MFGYR02_alt_index_at_end.sff
+SHA1 9d5dbe9c12b81abf36c6db42e10d9e4c25693e20 corpus/E3MFGYR02_alt_index_at_start.sff
+SHA1 17596ee951ce60f71e4c2b62db587663021049d0 corpus/E3MFGYR02_alt_index_in_middle.sff
+SHA1 d5ebb440ca1001f98601252228780be621ad9202 corpus/E3MFGYR02_index_at_start.sff
+SHA1 e58d011addbb867433403e42240ddaba6b13f82f corpus/E3MFGYR02_index_in_middle.sff
+SHA1 1214deccb1140420cf0cd9d0747f2c3120585090 corpus/E3MFGYR02_no_manifest.sff
+SHA1 ece9024d685ab09cda5e9adbf112c47a3c94a997 corpus/E3MFGYR02_random_10_reads.fasta
+SHA1 8dd662381c24eefc2a2ad8b8679415330b0c5cfa corpus/E3MFGYR02_random_10_reads.qual
+SHA1 a317e7d8fd4ff085a52d1633be2bdbf84f0ab089 corpus/E3MFGYR02_random_10_reads.sff
+SHA1 4465d8ae4041e8cd3e3e649d126cf7c7112db394 corpus/E3MFGYR02_random_10_reads_no_trim.fasta
+SHA1 d2ca77f500ea9edb13c6a413530f99dbdcd569d5 corpus/E3MFGYR02_random_10_reads_no_trim.qual
+SHA1 c1883de6beb89ba3a25cce3be8e1055aca6c6543 corpus/README.txt
+SHA1 9e0174e10824030f74dfb17e68c7a8cf3e3e7cac corpus/greek.sff
+SHA1 63ad5e91172592ebe7dc3234ad06c23efb076e95 corpus/paired.sff
 SHA1 6002d7335232fe1b50519d715003c44d58f1deb6 dist.ini
 SHA1 3e25b805af09910b35f3543420767e25b1a0c223 examples/extract
 SHA1 5ec7e17c6dcc6cef54eb112430e12f82b1cd6363 examples/first
-SHA1 87a020f0f8de7ec6475c7dc2dc583a11ca3cc403 examples/readthrough
-SHA1 d0aac47dc3ebce1fd3b7f5e81587fda760992190 lib/Bio/SFF.pm
-SHA1 d279d41fd1b1e0a32b37f592bb7306797ced1077 lib/Bio/SFF/Entry.pm
-SHA1 3bcf2d2ed40f30c1078b6ccd82293b97b1837069 lib/Bio/SFF/Header.pm
-SHA1 07e9cd627df30345f1b279781c4c6b46030f7893 lib/Bio/SFF/Reader.pm
+SHA1 259ff1822c33d15115368dd11634e0ae59292f2e examples/index
+SHA1 8c11785e0af5507da89fbe6278f82ca7e5a05b99 examples/manifest
+SHA1 e0d22b6b1755fb6ece6c2b4dc0d18cde9ccef8fb examples/readthrough
+SHA1 c8e4b2db164f5945bf231eb47162e2568c00ab5f lib/Bio/SFF.pm
+SHA1 94925bae6711f7e67a96ba234d27b884a657ed65 lib/Bio/SFF/Entry.pm
+SHA1 d8b71334e4cce1349e1be31ec3236a2c81cb165c lib/Bio/SFF/Header.pm
+SHA1 9af6585a13733a154d19a030d4fbf6da0421c7a7 lib/Bio/SFF/Index.pm
+SHA1 8ddf9f7b2494d492320896fbc2ea9d8a017ae479 lib/Bio/SFF/Reader.pm
+SHA1 789d07878bedbf2091294df707b77e648f1dc9eb lib/Bio/SFF/Reader/Random.pm
+SHA1 2a71293aa454713c1b6a863ec353394a3e7b8877 lib/Bio/SFF/Reader/Sequential.pm
 SHA1 3cbe905b92fbc69d59a06031d5ce6c837b352aa2 t/00-compile.t
+SHA1 8cffda484335edfa0a863ad2509f6a3fd38aef5c t/reader.t
 SHA1 88df31faa9e43288e3d7761de7c0732bd75f8b04 t/release-kwalitee.t
 SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
 SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
-iD8DBQFO1jmeTd+EWiaICwoRAi2TAKCnehk84GhHfStHjJ8wXBz6YaQT6QCfVleV
-ogVfEdB6WqXqhfs/xs0TOZQ=
-=eosg
+iD8DBQFO70dVTd+EWiaICwoRAo+XAJ94mfc7DLiTCqHKCMc64lRPUDI3YwCgzAVx
+Gg1s9mWbk2nWkh6kpK8/I8k=
+=mRHy
 -----END PGP SIGNATURE-----

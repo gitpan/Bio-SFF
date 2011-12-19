@@ -1,9 +1,9 @@
 package Bio::SFF;
 {
-  $Bio::SFF::VERSION = '0.002';
+  $Bio::SFF::VERSION = '0.003';
 }
 use strict;
-use warnings;
+use warnings FATAL => 'all';
 
 1;
 
@@ -19,11 +19,11 @@ Bio::SFF - Standard Flowgram Format for Perl
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 DESCRIPTION
 
-This distribution offers various SFF modules. Currently only a L<reader|Bio::SFF::Reader> is provided, in the future a writer will follow
+This distribution offers various SFF modules. Currently only two L<readers|Bio::SFF::Reader> are provided, in the future a writer will follow.
 
 =head1 SEE ALSO
 

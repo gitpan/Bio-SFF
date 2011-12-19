@@ -13,9 +13,11 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Leon Timmermans <leont\@cpan.org>",
   "BUILD_REQUIRES" => {
     "File::Find" => 0,
+    "File::Spec::Functions" => 0,
     "File::Temp" => 0,
+    "Module::Load" => 0,
     "Test::Kwalitee" => 0,
-    "Test::More" => 0
+    "Test::More" => "0.88"
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -28,13 +30,15 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Config" => 0,
     "Const::Fast" => 0,
+    "Fcntl" => 0,
     "Moo" => 0,
+    "Moo::Role" => 0,
     "Scalar::Util" => 0,
     "Sub::Name" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
