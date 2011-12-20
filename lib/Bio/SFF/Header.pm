@@ -1,6 +1,6 @@
 package Bio::SFF::Header;
 {
-  $Bio::SFF::Header::VERSION = '0.003';
+  $Bio::SFF::Header::VERSION = '0.004';
 }
 
 use Moo;
@@ -42,7 +42,7 @@ Bio::SFF::Header - An SFF header
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 DESCRIPTION
 

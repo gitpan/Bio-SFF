@@ -1,6 +1,6 @@
 package Bio::SFF::Index;
 {
-  $Bio::SFF::Index::VERSION = '0.003';
+  $Bio::SFF::Index::VERSION = '0.004';
 }
 
 use Moo;
@@ -36,7 +36,7 @@ Bio::SFF::Index - SFF index object
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =for Pod::Coverage offset_of
 

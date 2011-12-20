@@ -1,6 +1,6 @@
 package Bio::SFF::Reader;
 {
-  $Bio::SFF::Reader::VERSION = '0.003';
+  $Bio::SFF::Reader::VERSION = '0.004';
 }
 
 use Moo::Role;
@@ -11,6 +11,7 @@ use Carp qw/croak/;
 use Config;
 use Const::Fast;
 use Fcntl qw/SEEK_SET/;
+use IO::File;
 use Scalar::Util qw/reftype/;
 
 const my $padding_to => 8;
@@ -174,7 +175,7 @@ Bio::SFF::Reader - An SFF reader role
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 DESCRIPTION
 

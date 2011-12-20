@@ -1,6 +1,6 @@
 package Bio::SFF::Reader::Random;
 {
-  $Bio::SFF::Reader::Random::VERSION = '0.003';
+  $Bio::SFF::Reader::Random::VERSION = '0.004';
 }
 
 use Moo;
@@ -93,7 +93,7 @@ Bio::SFF::Reader::Random - Random-access SFF reader
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 

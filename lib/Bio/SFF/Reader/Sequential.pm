@@ -1,6 +1,6 @@
 package Bio::SFF::Reader::Sequential;
 {
-  $Bio::SFF::Reader::Sequential::VERSION = '0.003';
+  $Bio::SFF::Reader::Sequential::VERSION = '0.004';
 }
 
 use Moo;
@@ -52,7 +52,7 @@ Bio::SFF::Reader::Sequential - Sequential SFF reader
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 

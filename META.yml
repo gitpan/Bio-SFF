@@ -23,6 +23,7 @@ requires:
   Config: 0
   Const::Fast: 0
   Fcntl: 0
+  IO::File: 0
   Moo: 0
   Moo::Role: 0
   Scalar::Util: 0
@@ -33,4 +34,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Bio-SFF
   repository: git://github.com/Leont/bio-sff.git
-version: 0.003
+version: 0.004
