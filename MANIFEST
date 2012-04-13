@@ -6,7 +6,6 @@ META.json
 META.yml
 Makefile.PL
 README
-SIGNATURE
 corpus/E3MFGYR02_alt_index_at_end.sff
 corpus/E3MFGYR02_alt_index_at_start.sff
 corpus/E3MFGYR02_alt_index_in_middle.sff

@@ -1,6 +1,6 @@
 package Bio::SFF::Entry;
 {
-  $Bio::SFF::Entry::VERSION = '0.004';
+  $Bio::SFF::Entry::VERSION = '0.005';
 }
 
 use Moo;
@@ -73,7 +73,7 @@ Bio::SFF::Entry - An SFF entry
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 
@@ -123,6 +123,10 @@ The first base after the clipping point for quality, using 1-based indexing.
 =head2 clip_adaptor_right
 
 The last base before the clipping point for quality, using 1-based indexing.
+
+=for Pod::Coverage flow_index_per_base_raw
+flowgram_values_raw
+quality_scores_raw
 
 =head1 AUTHOR
 

@@ -1,6 +1,6 @@
 package Bio::SFF::Index;
 {
-  $Bio::SFF::Index::VERSION = '0.004';
+  $Bio::SFF::Index::VERSION = '0.005';
 }
 
 use Moo;
@@ -36,9 +36,21 @@ Bio::SFF::Index - SFF index object
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
-=for Pod::Coverage offset_of
+=head1 DESCRIPTION
+
+This class represents the index of an SFF file.
+
+=head1 METHODS
+
+=head2 manifest()
+
+This returns the (XML) manifest as a bytestring.
+
+=head2 offset_of($name)
+
+This returns the offset of a specific entry in the SFF file.
 
 =head1 AUTHOR
 

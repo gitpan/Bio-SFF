@@ -1,6 +1,6 @@
 package Bio::SFF;
 {
-  $Bio::SFF::VERSION = '0.004';
+  $Bio::SFF::VERSION = '0.005';
 }
 use strict;
 use warnings FATAL => 'all';
@@ -19,7 +19,7 @@ Bio::SFF - Standard Flowgram Format for Perl
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 DESCRIPTION
 

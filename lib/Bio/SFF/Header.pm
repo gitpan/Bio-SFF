@@ -1,6 +1,6 @@
 package Bio::SFF::Header;
 {
-  $Bio::SFF::Header::VERSION = '0.004';
+  $Bio::SFF::Header::VERSION = '0.005';
 }
 
 use Moo;
@@ -8,7 +8,7 @@ use Sub::Name;
 
 use Scalar::Util qw/looks_like_number/;
 
-for my $attr (qw/magic version index_offset index_length number_of_reads header_length key_length number_of_flows_per_read flowgram_format_code/) {
+for my $attr (qw/magic version index_offset index_length number_of_reads header_length number_of_flows_per_read flowgram_format_code/) {
 	has $attr => (
 		is => 'ro',
 		required => 1,
@@ -42,7 +42,7 @@ Bio::SFF::Header - An SFF header
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 DESCRIPTION
 
@@ -89,6 +89,10 @@ The array of nucleotide bases ('A', 'C', 'G' or 'T') that correspond to the nucl
 =head2 key_sequences
 
 The nucleotide bases of the key sequence used for the reads.
+
+=head2 number_of_flows_per_read
+
+The number of flowgram values in each entry.
 
 =head1 AUTHOR
 
