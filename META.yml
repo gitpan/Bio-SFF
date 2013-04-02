@@ -7,12 +7,11 @@ build_requires:
   File::Spec::Functions: 0
   File::Temp: 0
   Module::Load: 0
-  Test::Kwalitee: 0
   Test::More: 0.88
 configure_requires:
-  ExtUtils::MakeMaker: 6.30
+  Module::Build::Tiny: 0.013
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300007, CPAN::Meta::Converter version 2.120351'
+generated_by: 'Dist::Zilla version 4.300032, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -34,4 +33,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Bio-SFF
   repository: git://github.com/Leont/bio-sff.git
-version: 0.005
+version: 0.006

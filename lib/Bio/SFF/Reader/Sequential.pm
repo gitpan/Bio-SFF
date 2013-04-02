@@ -1,6 +1,6 @@
 package Bio::SFF::Reader::Sequential;
 {
-  $Bio::SFF::Reader::Sequential::VERSION = '0.005';
+  $Bio::SFF::Reader::Sequential::VERSION = '0.006';
 }
 
 use Moo;
@@ -42,7 +42,7 @@ sub reset {
 
 #ABSTRACT: Sequential SFF reader
 
-
+__END__
 
 =pod
 
@@ -52,7 +52,7 @@ Bio::SFF::Reader::Sequential - Sequential SFF reader
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
@@ -88,7 +88,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

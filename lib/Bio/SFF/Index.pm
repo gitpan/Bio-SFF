@@ -1,6 +1,6 @@
 package Bio::SFF::Index;
 {
-  $Bio::SFF::Index::VERSION = '0.005';
+  $Bio::SFF::Index::VERSION = '0.006';
 }
 
 use Moo;
@@ -26,7 +26,7 @@ sub offset_of {
 
 #ABSTRACT: SFF index object
 
-
+__END__
 
 =pod
 
@@ -36,7 +36,7 @@ Bio::SFF::Index - SFF index object
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 DESCRIPTION
 
@@ -64,7 +64,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

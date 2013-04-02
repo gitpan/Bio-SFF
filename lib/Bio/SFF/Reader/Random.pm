@@ -1,12 +1,9 @@
 package Bio::SFF::Reader::Random;
 {
-  $Bio::SFF::Reader::Random::VERSION = '0.005';
+  $Bio::SFF::Reader::Random::VERSION = '0.006';
 }
 
 use Moo;
-
-sub _has_index;
-with 'Bio::SFF::Reader';
 
 use Bio::SFF::Index;
 use Carp qw/croak/;
@@ -24,6 +21,8 @@ has _index => (
 	lazy => 1,
 	predicate => '_has_index'
 );
+
+with 'Bio::SFF::Reader';
 
 sub _build_index {
 	my $self = shift;
@@ -83,7 +82,7 @@ sub lookup {
 
 #ABSTRACT: Random-access SFF reader
 
-
+__END__
 
 =pod
 
@@ -93,7 +92,7 @@ Bio::SFF::Reader::Random - Random-access SFF reader
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
@@ -128,7 +127,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

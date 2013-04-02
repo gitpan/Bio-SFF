@@ -1,6 +1,6 @@
 package Bio::SFF::Header;
 {
-  $Bio::SFF::Header::VERSION = '0.005';
+  $Bio::SFF::Header::VERSION = '0.006';
 }
 
 use Moo;
@@ -32,7 +32,7 @@ for my $attr(qw/flow_chars key_sequences/) {
 
 #ABSTRACT: An SFF header
 
-
+__END__
 
 =pod
 
@@ -42,7 +42,7 @@ Bio::SFF::Header - An SFF header
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 DESCRIPTION
 
@@ -106,7 +106,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

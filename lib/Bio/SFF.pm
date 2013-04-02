@@ -1,6 +1,6 @@
 package Bio::SFF;
 {
-  $Bio::SFF::VERSION = '0.005';
+  $Bio::SFF::VERSION = '0.006';
 }
 use strict;
 use warnings FATAL => 'all';
@@ -9,7 +9,7 @@ use warnings FATAL => 'all';
 
 #ABSTRACT: Standard Flowgram Format for Perl
 
-
+__END__
 
 =pod
 
@@ -19,7 +19,7 @@ Bio::SFF - Standard Flowgram Format for Perl
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 DESCRIPTION
 
@@ -41,7 +41,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

@@ -1,6 +1,6 @@
 package Bio::SFF::Reader;
 {
-  $Bio::SFF::Reader::VERSION = '0.005';
+  $Bio::SFF::Reader::VERSION = '0.006';
 }
 
 use Moo::Role;
@@ -164,7 +164,7 @@ sub _read_manifest {
 
 #ABSTRACT: An SFF reader role
 
-
+__END__
 
 =pod
 
@@ -174,7 +174,7 @@ Bio::SFF::Reader - An SFF reader role
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 DESCRIPTION
 
@@ -214,7 +214,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
