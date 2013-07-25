@@ -1,6 +1,6 @@
 package Bio::SFF::Index;
 {
-  $Bio::SFF::Index::VERSION = '0.006';
+  $Bio::SFF::Index::VERSION = '0.007';
 }
 
 use Moo;
@@ -36,7 +36,7 @@ Bio::SFF::Index - SFF index object
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 DESCRIPTION
 

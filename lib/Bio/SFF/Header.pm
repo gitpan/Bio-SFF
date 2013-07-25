@@ -1,6 +1,6 @@
 package Bio::SFF::Header;
 {
-  $Bio::SFF::Header::VERSION = '0.006';
+  $Bio::SFF::Header::VERSION = '0.007';
 }
 
 use Moo;
@@ -23,7 +23,7 @@ for my $attr(qw/flow_chars key_sequences/) {
 		is => 'ro',
 		required => 1,
 		isa => sub {
-			return defined and ref($_[0]) eq '';
+			return defined && ref($_[0]) eq '';
 		},
 	);
 }
@@ -42,7 +42,7 @@ Bio::SFF::Header - An SFF header
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 DESCRIPTION
 

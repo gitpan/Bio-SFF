@@ -1,6 +1,6 @@
 package Bio::SFF::Reader;
 {
-  $Bio::SFF::Reader::VERSION = '0.006';
+  $Bio::SFF::Reader::VERSION = '0.007';
 }
 
 use Moo::Role;
@@ -119,7 +119,7 @@ has _index_info => (
 sub _build_index_info {
 	my $self = shift;
 	my ($index_offset, $index_length) = ($self->header->index_offset, $self->header->index_length);
-	return if not $index_offset or not $index_length;
+	return if !$index_offset || !$index_length;
 	
 	my $tell = $self->_fh->tell;
 	$self->_fh->seek($index_offset, SEEK_SET);
@@ -174,7 +174,7 @@ Bio::SFF::Reader - An SFF reader role
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 DESCRIPTION
 

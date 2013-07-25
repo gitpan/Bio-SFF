@@ -1,6 +1,6 @@
 package Bio::SFF::Entry;
 {
-  $Bio::SFF::Entry::VERSION = '0.006';
+  $Bio::SFF::Entry::VERSION = '0.007';
 }
 
 use Moo;
@@ -23,7 +23,7 @@ for my $attr (qw/name bases/){
 		is => 'ro',
 		required => 1,
 		isa => sub {
-			return defined and ref($_[0]) eq '';
+			return defined && ref($_[0]) eq '';
 		},
 	);
 }
@@ -41,7 +41,7 @@ for my $attr(qw/flowgram_values flow_index_per_base quality_scores/) {
 		required => 1,
 		init_arg => $attr,
 		isa => sub {
-			return defined and ref($_[0]) eq '';
+			return defined && ref($_[0]) eq '';
 		},
 	);
 	my $meth = "_$attr";
@@ -73,7 +73,7 @@ Bio::SFF::Entry - An SFF entry
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 SYNOPSIS
 
